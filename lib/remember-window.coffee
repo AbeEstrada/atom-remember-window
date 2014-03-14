@@ -9,10 +9,7 @@ module.exports =
 
   activate: (state) ->
     setWindowDimensions()
-    $(window).on 'resize', -> saveWindowDimensions()
-
-  deactivate: ->
-    saveWindowDimensions()
+    $(window).on 'resize beforeunload', -> saveWindowDimensions()
 
 setWindowDimensions = ->
   {x, y, width, height} = atom.config.get('remember-window')
