@@ -1,6 +1,6 @@
 # Remember Window
 
-Remember the window size and position
+Remember the window size, position and tree view width
 
 ## Install
 
