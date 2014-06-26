@@ -8,5 +8,8 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "fs-plus": "^2.2.3",
+    "season": "^1.0.2"
+  }
 }
