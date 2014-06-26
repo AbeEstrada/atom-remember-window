@@ -1,7 +1,7 @@
 {
   "name": "remember-window",
   "main": "./lib/remember-window",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Remember the window size, position and tree view width",
   "repository": "https://github.com/AbeEstrada/atom-remember-window",
   "license": "MIT",
